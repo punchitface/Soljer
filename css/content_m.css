@@ -113,7 +113,7 @@
 
 .advert-block {
     width: 280px;
-    height: 230px;
+    height: 280px;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -136,14 +136,21 @@
 
 .knife {
     background-image: url("../img/knife.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0;
 }
 
 .pistol {
     background-image: url("../img/pistol.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -30px;
 }
 
 .trofei {
     background-image: url("../img/trofei.png");
+    margin-top: -30px;
 }
 
 .stock-block {
@@ -164,12 +171,10 @@
     margin: 0 auto;
     display: block;
     margin-top: 20px;
-    width: 180px;
-    height: 130px;
 }
 
 .equip-block-empty {
-    padding-top: 10px}
+    padding-top: 10px;}
 
 
 .equip-block__des {
@@ -182,8 +187,48 @@
     text-transform: uppercase;
 }
 
+.zhig-des {
+    margin-top: 40px;
+}
+
+.arbal-des {
+    margin-top: 70px;
+}
+
+.fon-des {
+    margin-top: 70px;
+}
+
+.bin-des {
+    margin-top: 40px;
+}
+
+.opt-des {
+    margin-top: 80px;
+}
+
 .tactic-des {
-    margin-top: 5px;
+    margin-top: 45px;
+}
+
+.obuv-des {
+    margin-top: 50px;
+}
+
+.clock-des {
+    margin-top: 60px;
+}
+
+.oruzh-des {
+    margin-top: 80px;
+}
+
+.dospeh-des {
+    margin-top: 40px;
+}
+
+.flag-des {
+    margin-top: 10px;
 }
 
 .magazine-des {
@@ -191,5 +236,13 @@
 }
 
 .sertif-des {
-    margin-top: 5px;
+    margin-top:25px;
+}
+
+.multi-des {
+    margin-top: 50px;
+}
+
+.zat-des {
+    margin-top: 35px;
 }
