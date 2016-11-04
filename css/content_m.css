@@ -156,6 +156,52 @@
 .stock-block {
     background-color: #fff;
     position: relative;
+    border: 1px solid #dedede;
+    cursor: pointer;
+}
+
+.stock-block__img img {
+    margin-left: 53px;
+    margin-top: 20px;
+}
+
+.stock-block__title {
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+    color: #000;
+}
+
+.stock-block__money {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.stock-block__top-des {
+    position: absolute;
+    left: -3px;
+    top: 3px;
+}
+
+.cen {
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.new-cen {
+    margin-left: 10px;
+    color: #ea1b34;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 16px;
+}
+
+.old-cen {
+    color: #bababa;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 16px;
+    text-decoration: line-through;
 }
 
 .equip-block {
