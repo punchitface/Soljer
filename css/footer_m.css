@@ -1,0 +1,252 @@
+.footer {
+    background: #000;
+    color: #bfbfbf;
+}
+
+.footer__links {
+    border-bottom: 1px solid #686868;
+    margin: 0 auto;
+    height: 300px;
+    background: #000;
+    width: 290px;
+}
+
+.links__left {
+}
+
+.links__right {
+    margin-left: 20px;
+}
+
+.footer__links ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+.footer__links ul li {
+    margin-top: 15px;
+}
+
+.footer__links ul li:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.footer__links ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    color: #bfbfbf;
+    text-decoration: none;
+    border-bottom: 1px solid #686868;
+}
+
+.links__right {
+
+}
+
+.footer__contacts {
+    width: 290px;
+    background: #000;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.contacts__number {
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 28px;
+}
+
+.contacts__number-des {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contacts__spb-mos {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.spb {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.mos {
+    font-weight: 700;
+ }
+
+.city {
+    padding-left: 5px;
+
+    font-weight: normal;
+}
+
+.footer__social {
+    margin: 0 auto;
+    width: 290px;
+    height: 450px;
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.social__title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.icons__icon:first-child {
+    margin-left: 3px;
+}
+
+.social__icons {
+    margin-top: 10px;
+}
+
+.icons__icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid #686868;
+    border-radius: 50%;
+    margin-left: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.vk {
+    background-image: url("../img/vk.png");
+}
+
+.fb {
+    background-image: url("../img/fb.png");
+}
+
+.tw {
+    background-image: url("../img/tw.png");
+}
+
+.ig {
+    background-image: url("../img/ig.png");
+}
+
+.lg {
+    background-image: url("../img/lj.png");
+}
+
+.second-title {
+    margin-top: 30px;
+}
+
+.box-icons {
+    margin-top: 15px;
+}
+
+.box-icon {
+    display: inline-block;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 27px;
+    margin-left: 5px;
+    border-radius: 3px;
+
+}
+
+.vk-box {
+    background-image: url("../img/vk_box.png");
+    margin-left: 0;
+}
+
+.fb-box {
+    background-image: url("../img/fb_box.png");
+}
+
+.tw-box {
+    background-image: url("../img/tw_box.png");
+}
+
+.ok-box {
+    background-image: url("../img/ok_box.png");
+}
+
+.gp-box {
+    background-image: url("../img/gp_box.png");
+}
+
+.money-icons {
+    margin-top: 5px;
+}
+
+.money-icon {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    vertical-align: top;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+}
+
+.vi {
+    background-image: url("../img/visa.png");
+    width: 45px;
+}
+
+.mc {
+    background-image: url("../img/mc.png");
+    width: 45px;
+}
+
+.wb {
+    background-image: url("../img/wb.png");
+    width: 95px;
+}
+
+.yad {
+    background-image: url("../img/yad.png");
+    width: 70px;
+}
+
+.qi {
+    background-image: url("../img/qi.png");
+    width: 65px;
+}
+
+.subscribe-block {
+    margin-top: 20px;
+}
+
+.subscribe-field {
+    height: 40px;
+    width: 160px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.subscribe-btn {
+    height: 42px;
+    width: 110px;
+    display: inline-block;
+    margin-top: -10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ea1b34;
+    box-shadow: 0 1px 0 #910f1f;
+    border-radius: 0 5px 5px 0;
+}
+
+.button-hover:hover {
+    background-color: #910f1f;
+}
