@@ -223,6 +223,7 @@
 
 .subscribe-block {
     margin-top: 20px;
+    border-bottom: 1px solid;
 }
 
 .subscribe-field {
@@ -245,8 +246,33 @@
     background-color: #ea1b34;
     box-shadow: 0 1px 0 #910f1f;
     border-radius: 0 5px 5px 0;
+    margin-bottom: 40px;
 }
 
 .button-hover:hover {
     background-color: #910f1f;
 }
+
+.subscribe-news {
+    background: #000;
+    margin-bottom: 30px;
+}
+
+.footer__copyright {
+    height: 150px;
+    padding-top: 40px;
+}
+
+.copyright__text {
+    padding-left: 60px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.cite__work {
+    margin-top:40px;
+    padding-left: 60px;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 14px;
+}
+

@@ -292,3 +292,105 @@
 .zat-des {
     margin-top: 35px;
 }
+
+@media screen and (max-width: 414px) {
+   .container {
+       width: 380px !important;
+   }
+
+    .container__block {
+        width: 380px !important;
+    }
+
+    .content {
+        width: 380px !important;
+    }
+
+    .header__menu {
+        width: 60px;
+    }
+
+    .header__menu ul {
+        margin-left: -20px;
+    }
+
+    .header__etc {
+        width: 90px;
+        margin-left: 30px;
+    }
+
+    .header__ect__bay {
+        margin-left: 20px;
+    }
+
+    .header__logo {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 360px !important;
+    }
+
+    .container__block {
+        width: 360px !important;
+    }
+
+    .content {
+        width: 360px !important;
+    }
+
+    .header__logo {
+        margin-left: 30px;
+    }
+
+
+    .header__etc {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        width: 340px !important;
+    }
+
+    .container__block {
+        width: 340px !important;
+    }
+
+    .content {
+        width: 340px !important;
+    }
+
+    .header__logo {
+        margin-left: 15px;
+    }
+
+    .header__etc {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .container {
+        width: 320px !important;
+    }
+
+    .container__block {
+        width: 320px !important;
+    }
+
+    .content {
+        width: 320px !important;
+    }
+
+    .header__logo {
+        margin-left: 1px;
+    }
+
+    .header__etc {
+        margin-left: 1px;
+    }
+}

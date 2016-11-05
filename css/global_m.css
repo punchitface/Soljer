@@ -41,11 +41,9 @@ html, body {
 .container {
     width: 414px;
     margin: 0 auto;
-    border: 1px solid #000;
 }
 
 .container__block {
-   border-bottom: 1px solid;
 }
 
 .inline {
